@@ -2,8 +2,8 @@ package data;
 
 public class RectangleWithRound extends Rectangle {
 
-	public RectangleWithRound(float h, float w) {
-		super((float)Math.ceil(h), (float)Math.ceil(w));
+	public RectangleWithRound(double h, double w) {
+		super(Math.ceil(h), Math.ceil(w));
 	}
 
 }

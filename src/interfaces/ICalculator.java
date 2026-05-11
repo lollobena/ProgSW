@@ -1,6 +1,6 @@
 package interfaces;
 
 public interface ICalculator {
-	public float calcArea(IRectangle r);
-	public float calcArea(ISquare s);
+	public double calcArea(IRectangle r);
+	public double calcArea(ISquare s);
 }

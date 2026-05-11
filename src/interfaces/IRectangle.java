@@ -1,6 +1,8 @@
 package interfaces;
 
 public interface IRectangle {
-	public float getHeight();
-	public float getWidth();
+	public double getHeight();
+	public double getWidth();
+	public void setHeight(double h);
+	public void setWidth(double w);
 }
